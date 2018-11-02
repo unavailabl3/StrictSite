@@ -1,0 +1,44 @@
+body{
+	position: absolute;
+	width: 100%;
+	background-color: #f6f9f9;
+}
+.header,.main,.footer{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.header,.footer{
+	height: 100px;
+}
+.header__logo{
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	background: red;
+	text-align: left;
+}
+.header__logo_img{
+	margin-left: 20px;
+	width: 30px;
+	height: 30px;
+}
+.header__logo_span{
+}
+.main__banner{
+	background: url(../../img/banner.png) 100% 100%;
+	height: 700px;
+}
+.main__info,.main__features{
+	height: 350px;
+}
+.main__features{
+	background-color: #ffffff;
+}
+.main__portfolio{
+	height: 900px;
+}
+.main__staywithus{
+	background: url(../../img/staywithus.png) 100% 100%;
+	height: 700px;
+}
