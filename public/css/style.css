@@ -138,6 +138,10 @@ body{
 .main__portfolio .portfolio__images img{
 	margin: 10px;
 	border-radius: 3px;
+    transition: filter .5s ease-in-out;
+}
+.main__portfolio .portfolio__images img:hover{
+	filter: hue-rotate(180deg);
 }
 .main__staywithus{
 	background: url(../../img/staywithus.png) no-repeat;
